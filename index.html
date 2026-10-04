@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover local people and potential matches on RealSexClub. 18+ only.">
+  <title>RealSexClub - Explore Local Profiles</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Satisfy&family=Yesteryear&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+
+    /* Full-screen hero */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden;
+      background: #000;
+    }
+
+    /* Full-screen image */
+    .hero-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    /*
+      EXACTLY 35% OF SCREEN HEIGHT
+      The card will always occupy 35% of the hero.
+    */
+    .card {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      width: 100%;
+      height: 37%;
+      min-height: 0;
+
+      padding: 18px 22px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+      background: rgba(0, 0, 0, 0.50);
+
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+
+      backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px);
+
+      overflow: hidden;
+    }
+
+    /* Headline */
+    .headline {
+      max-width: 500px;
+
+      margin: 0 0 10px;
+
+      font-family: "Satisfy", cursive;
+      font-size: clamp(23px, 5.8vw, 32px);
+      line-height: 1.1;
+      font-weight: 400;
+
+      color: #fff;
+
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.55);
+    }
+
+    /* Description */
+    .description {
+      max-width: 500px;
+
+      margin: 0;
+
+      font-family: "Cookie", cursive;
+      font-size: clamp(17.5px, 4.8vw, 25px);
+      line-height: 1.15;
+      font-weight: 400;
+
+      color: #fff;
+
+      text-shadow:
+        0 2px 7px rgba(0, 0, 0, 0.65);
+    }
+
+    .description strong {
+      font-family: "Cookie", cursive;
+      font-weight: 400;
+      color: #fff;
+    }
+
+    /* CTA - Yesteryear */
+    .cta {
+      display: block;
+
+      width: min(70%, 330px);
+
+      margin: 15px auto 0;
+      padding: 13px 16px;
+
+      background: #f58220;
+      color: #fff;
+
+      text-decoration: none;
+
+      font-family: "Yesteryear", cursive;
+      font-size: 17px;
+      line-height: 1.1;
+      font-weight: 400;
+
+      letter-spacing: 0.1px;
+
+      border-radius: 12px;
+
+      box-shadow:
+        0 6px 18px rgba(0, 0, 0, 0.35),
+        0 6px 16px rgba(245, 130, 32, 0.30);
+
+      transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+
+      flex-shrink: 0;
+    }
+
+    .cta:hover {
+      opacity: 0.94;
+      transform: translateY(-1px);
+    }
+
+    .cta:active {
+      transform: translateY(0);
+    }
+
+    /* Small phones */
+    @media (max-height: 650px) {
+      .card {
+        height: 37%;
+        padding: 12px 18px;
+      }
+
+      .headline {
+        font-size: 22px;
+        margin-bottom: 7px;
+      }
+
+      .description {
+        font-size: 17.5px;
+        line-height: 1.1;
+      }
+
+      .cta {
+        margin-top: 10px;
+        padding: 10px 13px;
+        font-size: 16px;
+      }
+    }
+
+    /* Wider screens */
+    @media (min-width: 768px) {
+      .card {
+        height: 37%;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="hero">
+
+    <!-- Full-screen image -->
+    <img
+      src="img.jpeg"
+      alt="Dating profile"
+      class="hero-image"
+    >
+
+    <!-- Transparent black 35% overlay -->
+    <section class="card">
+
+      <h1 class="headline">
+        Are you single and looking for someone special? 😍
+      </h1>
+
+      <div class="description">
+        RealSexClub is a <strong>free dating site</strong> for
+        <strong>18+ adults</strong> looking to meet
+        <strong>a real people.</strong>
+        Discover <strong>interested singles</strong> nearby,
+        find a <strong>match</strong>, build
+        <strong>connections</strong> and start a
+        <strong>meaningful conversation today.</strong>
+      </div>
+
+      <a
+        href="https://t.datsk3.com/414091/7964?aff_sub5=SF_006OG000004lmDN"
+        class="cta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Explore Available Profiles 👉
+      </a>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
